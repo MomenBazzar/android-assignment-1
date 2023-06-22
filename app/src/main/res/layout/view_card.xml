@@ -10,8 +10,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:scaleType="centerCrop"
-        android:src="@drawable/card_bg"
-        android:textColor="@color/black"
+        android:textColor="@color/black_overlay"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -19,7 +18,8 @@
         android:id="@+id/iv_back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:scaleType="centerCrop"
-        android:src="@drawable/card_bg"/>
+        android:src="@drawable/background_card"/>
 
 </FrameLayout>
